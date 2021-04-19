@@ -1,0 +1,172 @@
+body
+{
+    margin: 0px; 
+    overflow-x: hidden;
+}
+
+/*------------------------------Header---------------------------------------*/
+
+header .div1
+{
+    background-color: rgb(34, 34, 34);
+    height: 60px;
+    color: rgb(233, 229, 227);
+    font-size: 20px;
+    text-align: center;
+    top: 0px;
+    position: absolute;
+    width:1366px;
+
+}
+
+header .div1 h1
+{
+    display: inline-block;
+    position: absolute;
+    top: -20px;
+    right: 610px;
+}
+
+
+/*------------------------------Article---------------------------------------*/
+
+[alt="back"]
+{
+
+    height: 615px;
+    z-index: 9;
+
+}
+
+
+
+article .div3
+{
+    height: 470px;
+    background-color: rgba(24, 24, 24, 0.815);
+    width:566px;
+    position: absolute;
+    top: 100px;
+    right: 390px;
+    border-radius: 80px;
+}
+
+article .div3 h1
+{
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 240px;
+    color: rgb(255, 255, 255);
+    font-family: "Comic Sans MS", cursive, sans-serif	    ;
+    font-size: 30px;
+}
+
+
+article .div3 form input
+{
+    display: block;
+    position: absolute;
+    border-radius: 40px;
+    padding: 5px;
+    
+}
+[placeholder="        Name"]
+{
+    display: block;
+    margin: -10px;
+    width: 350px;
+    left: 100px;
+    height: 30px;
+
+    top: 120px;
+}
+
+
+[placeholder="        Email"]
+{
+    display: block;
+    margin: -10px;
+    top: 170px;
+    width: 350px;
+    left: 100px;
+    height: 30px;
+
+    margin-top: 10px;
+
+
+}
+
+[placeholder="        password"]
+{
+    display: block;
+    width: 350px;
+    left: 100px;
+    margin: -10px;
+    margin-top: 28px;
+    top: 220px;
+    height: 30px;
+
+}
+
+[value="a"] 
+{
+    display: block;
+    position: absolute;
+    top: 320px;
+    width: 40px;
+    height: 20px;
+    left: 90px; 
+    height: 20px;
+
+
+}
+
+span , .s2
+{
+    position: absolute;
+    top: 325px;
+    left: 140px; 
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+
+}
+
+.s2
+{
+    color: rgb(5, 4, 4);
+    left: 260px; 
+
+}
+
+[value="Creat Account"]
+{
+    position: absolute;
+    top: 375px;
+    left: 188px; 
+    color: rgb(20, 13, 13);
+    font-size: 15px;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    font-weight: 800;
+    font-size: 15px;
+
+}
+
+/*------------------------------Footer--------------------------------------*/
+
+footer .div4
+{
+    display: inline-block;
+    position: absolute;
+    width:1366px;
+    bottom: 0px;
+    height: 50px;
+    text-align: center;
+    color: rgba(192, 192, 192, 0.884);
+    background-color: rgb(34, 34, 34);
+    font-size: 20px;
+}
+
+
